@@ -71,5 +71,19 @@ print('----------')
 print(giaidb1)
 '''
 
+
+titles = soup.findAll('td', class_='tinh')
+matinh = soup.findAll('td', class_='matinh')
+giai8 = soup.findAll('td', class_='giai8')
+giai7 = soup.findAll('td', class_='giai7')
+giai6 = soup.findAll('td', class_='giai6')
+giai5 = soup.findAll('td', class_='giai5')
+giai4 = soup.findAll('td', class_='giai4')
+giai3 = soup.findAll('td', class_='giai3')
+giai2 = soup.findAll('td', class_='giai2')
+giai1 = soup.findAll('td', class_='giai1')
+giaidb = soup.findAll('td', class_='giaidb')
+
+
 table = soup.find('table',class_='bkqmiennam')
 print(table)
